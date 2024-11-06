@@ -1,0 +1,43 @@
+body{
+    background-color:rgb(89, 91, 87);
+    padding-left: 250px;
+    padding-right: 400px;
+}
+
+.head{
+    color: aliceblue;
+}
+.main_1{
+    border: 1px solid black;
+    height: 5%;
+    background-color: rgb(131, 136, 136);
+
+}
+
+.class_2{
+    background-color: white;
+      
+}
+
+.class_3{
+    display: inline-flex;
+    background-color: aqua;
+    width: 500px;
+    height: 40px;
+    
+}
+
+.image{
+padding: 5px;
+}
+
+.img{
+     display: inline-flex; 
+    height: 150px;
+    width: 150px;
+    padding-right: 5px;
+;
+}
+.footer{
+    background-color: rgb(40, 110, 110);
+}
