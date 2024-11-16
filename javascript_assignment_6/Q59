@@ -1,0 +1,7 @@
+<input type="text" id="txt" onblur="calculate()" onfocus="calculate()">
+
+<script>
+  var calculate = function() {
+    console.log("Dummy text");
+  }
+</script>

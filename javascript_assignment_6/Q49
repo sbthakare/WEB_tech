@@ -1,0 +1,15 @@
+<input type="text" id="txt">
+<p id="result"></p>
+<script>
+  function validateEmail() {
+    var email = document.getElementById("txt").value;
+    var regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    if (regex.test(email)) {
+      document.getElementById("result").innerText = "Valid Email ID";
+    } else {
+      document.getElementById("result").innerText = "Invalid Email ID";
+    }
+  }
+
+  document.getElementById("txt").addEventListener("blur", validateEmail);
+</script>

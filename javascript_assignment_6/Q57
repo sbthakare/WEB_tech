@@ -1,0 +1,8 @@
+<script>
+  var person = {
+    name: "John",
+    age: 25,
+    location: "New York"
+  };
+  console.log(person);
+</script>

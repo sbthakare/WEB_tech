@@ -1,0 +1,15 @@
+<input type="text" id="txt">
+<p id="result"></p>
+<script>
+  function validateName() {
+    var name = document.getElementById("txt").value;
+    var regex = /^[A-Za-z\s]+$/;
+    if (regex.test(name)) {
+      document.getElementById("result").innerText = "Valid Name";
+    } else {
+      document.getElementById("result").innerText = "Invalid Name";
+    }
+  }
+
+  document.getElementById("txt").addEventListener("blur", validateName);
+</script>

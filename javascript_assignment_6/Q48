@@ -1,0 +1,15 @@
+<input type="text" id="txt">
+<p id="result"></p>
+<script>
+  function validateMobile() {
+    var mobile = document.getElementById("txt").value;
+    var regex = /^[0-9]{10}$/;
+    if (regex.test(mobile)) {
+      document.getElementById("result").innerText = "Valid Mobile Number";
+    } else {
+      document.getElementById("result").innerText = "Invalid Mobile Number";
+    }
+  }
+
+  document.getElementById("txt").addEventListener("blur", validateMobile);
+</script>

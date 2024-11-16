@@ -1,0 +1,8 @@
+<script>
+  var val1 = "10.5";
+  var val2 = "10.5px";
+  console.log(Number(val1));  // 10.5
+  console.log(parseInt(val1)); // 10
+  console.log(Number(val2));   // NaN
+  console.log(parseInt(val2)); // 10
+</script>

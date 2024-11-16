@@ -1,0 +1,7 @@
+<script>
+  function calculate(a, b) {
+    console.log("Result: " + (a * b));
+  }
+
+  calculate(10, 20);
+</script>

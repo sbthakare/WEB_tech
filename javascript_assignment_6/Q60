@@ -1,0 +1,13 @@
+<input type="text" id="txt">
+<p id="result"></p>
+
+<script>
+  document.getElementById("txt").addEventListener("blur", function() {
+    var value = document.getElementById("txt").value;
+    if (isNaN(value)) {
+      document.getElementById("result").innerText = "It's a string!";
+    } else {
+      document.getElementById("result").innerText = "It's a number!";
+    }
+  });
+</script>

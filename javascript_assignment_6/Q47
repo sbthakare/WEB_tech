@@ -1,0 +1,5 @@
+<script>
+  var numbers = [10, 20, 30, 40, 50];
+  console.log("Position of 10: " + numbers.indexOf(10));
+  console.log("Position of 100: " + numbers.indexOf(100)); // Returns -1 if not found
+</script>

@@ -1,0 +1,6 @@
+<input type="button" value="Change Background" onclick="changeBackground()">
+<script>
+  function changeBackground() {
+    document.body.style.backgroundColor = "lightblue";
+  }
+</script>

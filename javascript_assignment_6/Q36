@@ -1,0 +1,13 @@
+<input type="text" id="txt">
+<p id="para" onclick="displaySquare()">Click me to display square</p>
+
+<script>
+  function displaySquare() {
+    var value = parseFloat(document.getElementById("txt").value);
+    if (!isNaN(value)) {
+      document.getElementById("para").innerText = "Square: " + (value * value);
+    } else {
+      document.getElementById("para").innerText = "Please enter a valid number.";
+    }
+  }
+</script>

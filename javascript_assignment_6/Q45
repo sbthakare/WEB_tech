@@ -1,0 +1,8 @@
+<input type="button" value="Remove Last" onclick="removeLast()">
+<script>
+  var numbers = [10, 20, 30, 40, 50];
+  function removeLast() {
+    numbers.pop();
+    console.log(numbers);
+  }
+</script>

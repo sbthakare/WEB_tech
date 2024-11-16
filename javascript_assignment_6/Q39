@@ -1,0 +1,8 @@
+<script>
+  var numbers = [10, 20, 30];
+  var i = 0;
+  while (i < numbers.length) {
+    console.log(numbers[i]); // Accessing values using index
+    i++;
+  }
+</script>

@@ -1,0 +1,7 @@
+<script>
+  var numbers = [10, 20, 30];
+  console.log(numbers); // Array structure
+  numbers.forEach(function(num) {
+    console.log(num); // Individual values
+  });
+</script>

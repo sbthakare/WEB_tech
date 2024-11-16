@@ -1,0 +1,7 @@
+<script>
+  var numbers = [1, 4, 6, 8, 12, 11, 13];
+  var filtered = numbers.filter(function(num) {
+    return num % 2 === 1 || num > 10;
+  });
+  console.log(filtered); // Output: [1, 11, 14]
+</script>

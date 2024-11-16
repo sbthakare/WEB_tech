@@ -1,0 +1,23 @@
+<script>
+  var numbers = [1, 2, 3, 4];
+  
+  // Using for in
+  var squares1 = [];
+  for (var i in numbers) {
+    squares1.push(numbers[i] * numbers[i]);
+  }
+  console.log(squares1);
+
+  // Using forEach
+  var squares2 = [];
+  numbers.forEach(function(num) {
+    squares2.push(num * num);
+  });
+  console.log(squares2);
+
+  // Using map()
+  var squares3 = numbers.map(function(num) {
+    return num * num;
+  });
+  console.log(squares3);
+</script>

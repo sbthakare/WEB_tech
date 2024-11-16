@@ -1,0 +1,9 @@
+<input type="text" id="txt">
+<p id="para" onclick="displayValue()">Click me to display textbox value</p>
+
+<script>
+  function displayValue() {
+    var value = document.getElementById("txt").value;
+    document.getElementById("para").innerText = value;
+  }
+</script>

@@ -1,0 +1,8 @@
+<input type="button" value="Remove First" onclick="removeFirst()">
+<script>
+  var numbers = [10, 20, 30, 40, 50];
+  function removeFirst() {
+    numbers.shift();
+    console.log(numbers);
+  }
+</script>
